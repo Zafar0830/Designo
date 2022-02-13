@@ -1,0 +1,84 @@
+
+.tel__container {
+    max-width: 1111px;
+    width: 100%;
+    min-height: 640px;
+    background-color: #E7816B;
+    padding-top: 145px;
+    padding-left: 95px;
+    background-image:url(./../imgs/tel.png),url(./../imgs/katta-oval.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 96px) calc(100%), right bottom;
+}
+.tel__heading {
+    font-family: 'Jost';
+    font-style: normal;
+    
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    max-width: 540px;
+    width: 100%;
+    min-height: 165px;
+    margin-bottom: 11px;
+}
+.tel__text {
+    max-width: 445px;
+    width: 100%;
+    min-height: 78px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.tel__button {
+    padding: 18px 25px 16px 24px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #333136;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+}
+@media only screen and 
+(max-width:1000px){
+    
+    .tel__container {
+        max-width: 900px;
+        width: 100%;
+        padding-top:60px;
+        padding-left:58px;
+        padding-right: 58px;
+        min-height: 843px;
+        background-color: #E7816B;
+        text-align: center;
+        background-position:calc(50%)470px, right bottom;
+    }
+    .tel__heading {
+        max-width: 573px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .tel__text {
+        max-width: 445px;
+        width: 100%;
+        min-height: 78px;
+        margin-bottom: 19px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+    .tel__button {
+        text-align: center;
+    }
+}
